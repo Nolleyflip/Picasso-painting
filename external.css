@@ -5,28 +5,20 @@
 }
 .box1 {
     background-color: darkcyan;
-    width: 460px;
+    width: 32%;
     height: 200px;
 }
 .box2 {
     background-color: darkcyan;
-    width: 460px;
+    width: 32%;
     height: 200px;
 }
 .box3 {
     background-color: darkcyan;
-    width: 460px;
+    width: 32%;
     height: 200px;
 }
-.main2 {
-    background-color: darkcyan;
-    width: 1438px;
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 40px;
-}
-.circle1 {
+div .circle1 {
     background-color: #e17e7e;
     border-radius: 50%;
     height: 75px;
@@ -35,7 +27,7 @@
     top: 22px;
     margin: 0px 40px;
 }
-.circle2 {
+div .circle2 {
     background-color: yellow;
     border-radius: 50%;
     height: 175px;
@@ -50,7 +42,7 @@
     height: 75px;
     width: 75px;
     position: absolute;
-    top: 162px;
+    top: 156px;
     margin: 0px 40px;
 }
 .circle4 {
@@ -61,6 +53,7 @@
     position: absolute;
     top: 162px;
     margin: 0px 407px;
+    z-index: 1;
 }
 .circle5 {
     background-color: #e17e7e;
@@ -70,4 +63,51 @@
     position: absolute;
     top: 12px;
     margin: 0px 0px;
+}
+.main2{
+
+}
+.rectangle1 {
+    background-color: darkcyan;
+    width: 96%;
+    height: 58vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 29px;
+}
+.circle6 {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    top: 7px;
+    margin: 256px 179px 146px;
+}
+.triangle1 {
+    width: 0px;
+    height: 6px;
+    border-left: 240px solid transparent;
+    border-right: 246px solid transparent;
+    border-bottom: 470px solid green;
+    position: absolute;
+    padding: 0px 0px;
+    margin: -40px 758px;
+}
+.triangle2 {
+    width: 0px;
+    height: 144px;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 291px solid #cbfd67;
+    position: absolute;
+    padding: 0px 0px;
+    margin: 1px 1073px;
+} 
+.rectangle2 {
+    background-color: #cbfd67;
+    height: 16px;
+    width: 96%;
+    padding: 0px 0px;
+    margin: 0px 29px;
 }
