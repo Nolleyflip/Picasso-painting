@@ -23,7 +23,6 @@ div .circle1 {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    position: absolute;
     top: 22px;
     margin: 0px 40px;
 }
@@ -32,7 +31,6 @@ div .circle2 {
     border-radius: 50%;
     height: 175px;
     width: 175px;
-    position: absolute;
     top: 22px;
     margin: 0px 224px;
 }
@@ -41,7 +39,6 @@ div .circle2 {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    position: absolute;
     top: 156px;
     margin: 0px 40px;
 }
@@ -50,7 +47,6 @@ div .circle2 {
     border-radius: 50%;
     height: 130px;
     width: 130px;
-    position: absolute;
     top: 162px;
     margin: 0px 407px;
     z-index: 1;
@@ -60,17 +56,16 @@ div .circle2 {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    position: absolute;
     top: 12px;
     margin: 0px 0px;
 }
 .main2{
-
+    display: flex;
 }
 .rectangle1 {
     background-color: darkcyan;
     width: 96%;
-    height: 58vh;
+    height: 429px;
     display: flex;
     justify-content: space-evenly;
     margin: 29px;
@@ -80,29 +75,22 @@ div .circle2 {
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    position: absolute;
     top: 7px;
     margin: 256px 179px 146px;
 }
 .triangle1 {
     width: 0px;
-    height: 6px;
-    border-left: 240px solid transparent;
-    border-right: 246px solid transparent;
-    border-bottom: 470px solid green;
-    position: absolute;
+    border-left: 273px solid transparent;
+    border-right: 273px solid transparent;
+    border-bottom: 499px solid green;
     padding: 0px 0px;
-    margin: -40px 758px;
 }
 .triangle2 {
     width: 0px;
-    height: 144px;
-    border-left: 160px solid transparent;
-    border-right: 160px solid transparent;
-    border-bottom: 291px solid #cbfd67;
-    position: absolute;
+    border-left: 225px solid transparent;
+    border-right: 225px solid transparent;
+    border-bottom: 367px solid #cbfd67;
     padding: 0px 0px;
-    margin: 1px 1073px;
 } 
 .rectangle2 {
     background-color: #cbfd67;
@@ -110,4 +98,23 @@ div .circle2 {
     width: 96%;
     padding: 0px 0px;
     margin: 0px 29px;
+}
+.head1 {
+    background-color: #0efbfb;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    top: 544px;
+    margin: 0px 63px;
+    padding: 0px;
+    display: flex;
+}
+.body1 {
+    background-color: #0efbfb;
+    border-radius: 100%;
+    height: 63px;
+    width: 35px;
+    top: 595px;
+    margin: 0px 69px;
+    display: flex;
 }
